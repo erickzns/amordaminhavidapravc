@@ -14,13 +14,20 @@
         <p>Esse site é dedicado a nós... cada foto, cada música, cada palavra é pra lembrar que eu te amo muito.</p>
 
         <section id="fotos">
-            <h2>Nossas Memórias</h2>
-            <div class="gallery">
-                <img src="foto1.jpg" alt="Foto 1">
-                <img src="foto2.jpg" alt="Foto 2">
-                <img src="foto3.jpg" alt="Foto 3">
-            </div>
-        </section>
+  <h2>Nossas Memórias</h2>
+
+  <div class="slider-container">
+    <button onclick="prev()">❮</button>
+
+    <div class="slider">
+      <img src="fotos/foto1.jpg" class="slide active" />
+      <img src="fotos/foto2.jpg" class="slide" />
+      <img src="fotos/foto3.jpg" class="slide" />
+    </div>
+
+    <button onclick="next()">❯</button>
+  </div>
+</section>
 
         <section id="musica">
             <h2>Música Especial</h2>
