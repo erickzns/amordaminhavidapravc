@@ -1,6 +1,4 @@
-// Aqui você pode adicionar interatividade depois, como animações ou mensagens
-console.log("Site feito com ❤️");
-
+// Carrossel de fotos
 let currentIndex = 0;
 const slides = document.querySelectorAll('.slide');
 
