@@ -1,35 +1,22 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fff0f5;
-    color: #4a1c2c;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff0f5;
+  color: #4a1c2c;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
+  max-width: 800px;
+  margin: auto;
 }
 
 h1 {
-    color: #d6336c;
+  color: #d6336c;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.gallery img {
-  width: 30%;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
+/* Estilo do carrossel */
 .slider-container {
   display: flex;
   align-items: center;
@@ -75,6 +62,7 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+/* Estilização da música */
 audio {
-    margin-top: 20px;
+  margin-top: 20px;
 }
