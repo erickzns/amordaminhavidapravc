@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +13,7 @@ body {
 }
 
 .container {
-  max-width: 450px; /* largura ideal pra mobile */
+  max-width: 450px;
   margin: auto;
 }
 
@@ -30,7 +29,7 @@ p {
   margin-bottom: 30px;
 }
 
-/* Carrossel de fotos */
+/* Estilo do carrossel */
 .slider-container {
   display: flex;
   align-items: center;
@@ -44,7 +43,7 @@ p {
 
 .slider {
   width: 100%;
-  height: 80vh; /* altura responsiva */
+  height: 80vh;
   overflow: hidden;
   position: relative;
   border-radius: 20px;
@@ -80,7 +79,7 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
-/* Música */
+/* Player de música */
 audio {
   width: 100%;
   margin-top: 20px;
